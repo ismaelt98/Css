@@ -1,0 +1,26 @@
+#table2 {
+    background-color: bisque;
+    border: solid 8px black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    text-align: center;
+    
+}
+
+tr, td:not(.tabla1, .tabla2, .tabla3, .iva) {
+    border-spacing: 0px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-style: inset;
+    border-bottom-color: rgb(51, 51, 51);
+}
+
+.iva, .title {
+    background-color: rgb(42, 230, 255);
+}

@@ -1,0 +1,47 @@
+div:not(.div-5,#div-padre) {
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid black;
+}
+
+.div-1 {
+    position: relative;
+    top: 125px;
+}
+
+.div-2 {
+    position: relative;
+    top: 89px;
+    left: 210px;
+}
+
+.div-3 {
+    position: relative;
+    top: 256px;
+}
+
+.div-4 {
+    position: relative;
+    top: 220px;
+    left: 210px;
+}
+
+.div-5 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px solid black;
+    margin-left: 20px;
+}
+
+#div-padre{
+    margin-left: 40%;
+}

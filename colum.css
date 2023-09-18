@@ -1,0 +1,17 @@
+/* Estilos para el contenedor */
+.container {
+    padding: 10px;
+    margin: 20px;
+    border-top: 2px solid red;
+    border-top-style: dotted;
+    border-right: 2px solid green;
+    border-right-style: dashed;
+    border-bottom: 2px solid blue;
+    border-bottom-style: solid;
+    border-left: 2px double orange;
+
+/* Estilos para el h1 y el p dentro del contenedor */
+.container h1,
+.container p {
+    margin: 10px;
+}
