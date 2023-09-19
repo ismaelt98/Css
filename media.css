@@ -1,0 +1,119 @@
+/* Estilos para tamaños mayores a 768px */
+.orange, .blue, .grey {
+    margin-bottom: 10px; 
+}
+
+.yellow {
+    margin-bottom: 20px; 
+}
+
+.container {
+    padding: 30px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+    width: calc(50% - 10px);
+    margin: 1px;
+    margin-bottom: 11px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+}
+
+.blue {
+    background-color: blue;
+    height: 100px;
+    width: calc(33.33% - 10px);
+    margin-right: -1px;
+}
+.grey {
+    background-color: grey;
+    height: 100px;
+    width: calc(25% - 10px); 
+    margin: -1px;
+}
+
+@media (max-width: 1024px) {
+    .orange {
+        width: calc(50% - 10px);
+        margin: 1px;
+    }
+    .yellow {
+        height: 300px;
+        width: 100%;
+    }
+    .blue {
+        width: calc(33.33% - 10px);
+        margin-right: 10px;
+    }
+    .grey {
+        width: calc(25% - 10px);
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .orange {
+        background-color: rgb(43, 7, 7);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .yellow {
+        background-color: rgb(252, 60, 12);
+        width: 100%;
+        height: 300px;
+    }
+    .blue {
+        background-color: rgb(189, 26, 94);
+        width: 100%;
+        margin-right: 0px;
+    }
+    .grey {
+        background-color: rgb(31, 156, 94);
+        width: calc(50% - 10px);
+        margin: 0px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        flex-direction: column; 
+    }
+    
+    .orange{
+        background-color: rgb(25, 14, 124);
+        width: 100%; 
+        margin: 5px; 
+        margin-bottom: 10px; 
+    }
+    .yellow{
+        background-color: rgb(98, 151, 211);
+        width: 100%; 
+        margin: 5px; 
+        margin-bottom: 10px; 
+    }
+    .blue{
+        background-color: rgb(64, 226, 15);
+        width: 100%; 
+        margin: 5px; 
+        margin-bottom: 10px; 
+    }
+    .grey {
+        background-color: rgb(206, 73, 128);
+        width: 100%; 
+        margin: 5px; 
+        margin-bottom: 10px; 
+    }
+}
+
+

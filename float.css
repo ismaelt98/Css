@@ -1,0 +1,33 @@
+header {
+    background-color: red;
+    width: 1450px;
+    height: 120px;
+    float:initial;
+}
+
+nav {
+    background-color: blue;
+    width: 1450px;
+    height: 50px;
+}
+
+section {
+    background-color: rgb(165, 66, 160);
+    width: 650px;
+    height: 600px;
+    float: left;
+}
+
+aside {
+    background-color: rgba(166, 233, 58, 0.932);
+    width: 550px;
+    height: 600px;
+    float: right;
+}
+
+footer {
+    background-color: greenyellow;
+    width: 1450px;
+    height: 50px;
+    clear: both;
+}

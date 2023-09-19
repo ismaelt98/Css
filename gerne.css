@@ -1,0 +1,21 @@
+div {
+    width: 500px;
+    float: left;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 500px;
+}
+
+img {
+    width: 800px;
+}
+
+body {
+    background-color: aliceblue;
+}
